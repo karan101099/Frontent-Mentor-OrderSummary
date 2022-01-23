@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  background: #ebf0ff;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main .svg {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+main .svg svg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.container {
+  z-index: 0;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  border-radius: 1.5rem;
+  max-width: 440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 10px 40px 1px #c2d1ff;
+          box-shadow: 0px 10px 40px 1px #c2d1ff;
+}
+
+.image {
+  /* background: url(images/illustration-hero.svg) center/cover no-repeat, yellow; */
+  width: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.content {
+  padding: 2.5rem;
+  background: white;
+  border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: #1f2f56;
+}
+
+.para {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #7280a7;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f5f7ff;
+  padding: 1rem 1.8rem;
+  margin: 1.5rem 0;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+
+.plan .music-icon {
+  width: 18%;
+}
+
+.plan .plan-duration {
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.plan .plan-price {
+  color: #7280a7;
+}
+
+.plan-details {
+  justify-self: flex-start;
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+
+.plan__change {
+  font-weight: 700;
+  -ms-grid-column-align: right;
+      justify-self: right;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-left: auto;
+}
+
+.plan__change a {
+  text-decoration: none;
+}
+
+.plan__change a:hover {
+  opacity: 50%;
+}
+
+.proceed {
+  background-color: #3829e0;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  -webkit-box-shadow: 0px 8px 15px 4px #e0e8ff;
+          box-shadow: 0px 8px 15px 4px #e0e8ff;
+}
+
+.proceed:hover {
+  cursor: pointer;
+  background-color: rgba(56, 41, 224, 0.5);
+}
+
+.cancel {
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  color: #7280a7;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.cancel:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=style.css.map */
